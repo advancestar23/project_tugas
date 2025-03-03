@@ -1,0 +1,8 @@
+max_depth=4: Parameter ini membatasi kedalaman tree yang ditampilkan hingga 4 level. Dengan membatasi kedalaman, jumlah node yang ditampilkan juga akan dibatasi.
+
+Perkiraan Jumlah Node:
+Setiap level dalam Decision Tree dapat memiliki maksimal 2^n node, di mana n adalah level tree.
+Dengan max_depth=4, jumlah maksimum node adalah 2^0 + 2^1 + 2^2 + 2^3 + 2^4 = 1 + 2 + 4 + 8 +16 = 31 node.
+Namun, jumlah node sebenarnya mungkin kurang dari 31, tergantung pada struktur data dan bagaimana Decision Tree dilatih.
+Dalam kasus ini, Anda menginginkan sekitar 20 node, dan max_depth=4 kemungkinan akan memberikan hasil yang mendekati.
+Anda dapat menyesuaikan nilai max_depth untuk mendapatkan jumlah node yang diinginkan. Jika ingin lebih sedikit node, kurangi nilai max_depth. Jika ingin lebih banyak node, tambahkan nilai max_depth.
